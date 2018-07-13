@@ -961,6 +961,10 @@ footer .icon-style {
     color: #222
 }
 
+.signature {
+    max-width: 300px;
+}
+
 
 /*=========== End Footer ===========*/
 

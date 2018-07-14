@@ -150,20 +150,17 @@ $(window).on('load', function() {
 $('#instaGallery').click(function(e) {
     e.preventDefault();
 
-    $('#instafeed').html('');
-
     // Instagram Plugin Script
     /*
      * User ID -490998030
-     * Client ID - 994a215d331a4f7284df02755ef158b0
-     * Client Secret - bf48f5ca867d4c20950f5459b2de7bf9 
+     * Access Token: '490998030.994a215.aa755af22f52455a8420a2c72c7acaaf
      */
-    var userFeed = new Instafeed({
-        get: 'user',
-        userId: 490998030,
-        accessToken: '490998030.994a215.aa755af22f52455a8420a2c72c7acaaf'
+    $("#instafeed").instastream({
+        instaToken: '490998030.994a215.aa755af22f52455a8420a2c72c7acaaf',
+        instaUser: '490998030', //
+        instaResults: 100,
+        instaMenu: 'yes'
     });
-    userFeed.run();
 
     $('body').addClass('noscroll');
     $('.insta-overlay').show("slow");

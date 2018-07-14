@@ -1,6 +1,6 @@
 # <a target="_blank" class="url" href="http://itsvarungupta.com">itsvarungupta.com</a>
 
-[![Screen Shot](http://varungupta2671.planetcloudhosting.cf/develop/images/signature.png)](http://itsvarungupta.com)
+[![itsvarungupta.com](http://varungupta2671.planetcloudhosting.cf/develop/images/signature.png)](http://itsvarungupta.com)
 
 > <b>Name :</b>  Varun Gupta <br/>
 > <b>Age :</b> 25 Years <br/>

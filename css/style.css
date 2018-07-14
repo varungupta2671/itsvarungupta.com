@@ -1254,23 +1254,45 @@ footer .icon-style {
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 2;
+    z-index: 3;
+}
+
+.overlay-title {
+    width: 300px;
+    height: 82px;
+    font-size: 20px;
+    position: absolute;
+    background: #ffffff9e;
+    padding: 10px;
+    text-align: center;
+    top: 40%;
+    left: 24%;
+    font-family: monospace;
+}
+
+.overlay-title span {
+    background: #29afc6;
+    color: #ffffff;
+    padding: 4px;
 }
 
 #instafeed {
     position: fixed;
     right: 5px;
-    width: 210px;
+    width: 555px;
     overflow-y: scroll;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
     padding: 0 15px;
+    text-align: center;
 }
 
-
-/* .web-body {
-    margin-right: 170px;
-} */
+#instafeed img {
+    padding: 5px;
+    background-color: #fff;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
 
 #instaGallery {
     position: absolute;
@@ -1281,12 +1303,6 @@ footer .icon-style {
 #instaGallery i {
     margin-top: 0;
     cursor: pointer;
-}
-
-#instafeed img {
-    padding: 5px;
-    background-color: #fff;
-    margin-bottom: 5px;
 }
 
 .close-overlay {

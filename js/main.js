@@ -159,7 +159,7 @@ $('#instaGallery').click(function(e) {
         instaToken: '490998030.994a215.aa755af22f52455a8420a2c72c7acaaf',
         instaUser: '490998030', //
         instaResults: 100,
-        instaMenu: 'yes'
+        instaMenu: 'no'
     });
 
     $('body').addClass('noscroll');

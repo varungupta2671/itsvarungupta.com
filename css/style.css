@@ -1244,3 +1244,80 @@ footer .icon-style {
 
 
 /*========== End @media Screen ===========*/
+
+.insta-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+#instafeed {
+    position: fixed;
+    right: 5px;
+    width: 210px;
+    overflow-y: scroll;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 0 15px;
+}
+
+
+/* .web-body {
+    margin-right: 170px;
+} */
+
+#instaGallery {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+
+#instaGallery i {
+    margin-top: 0;
+    cursor: pointer;
+}
+
+#instafeed img {
+    padding: 5px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+
+.close-overlay {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.2);
+    border: 0;
+    padding: 5px 13px;
+    font-size: 20px;
+    border-radius: 26px;
+    margin: 13px;
+    color: #fff;
+}
+
+.close-overlay:focus {
+    outline: none;
+}
+
+.noscroll {
+    overflow: hidden !important;
+    height: 100vh;
+}
+
+.noscroll .web-body {
+    height: 100%;
+    overflow: hidden;
+}
+
+[aria-hidden="true"] {
+    display: none;
+}
+
+[aria-hidden="false"] {
+    display: block;
+}

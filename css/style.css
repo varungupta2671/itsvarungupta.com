@@ -188,6 +188,10 @@ a:hover {
     line-height: 45px;
 }
 
+.navbar .navbar-nav {
+    margin: 0 auto;
+}
+
 .navbar li {
     letter-spacing: 0;
     font-weight: bold
@@ -1305,7 +1309,7 @@ footer .icon-style {
     cursor: pointer;
 }
 
-.close-overlay {
+button.close-overlay {
     position: fixed;
     background: rgba(0, 0, 0, 0.2);
     border: 0;
@@ -1314,6 +1318,10 @@ footer .icon-style {
     border-radius: 26px;
     margin: 13px;
     color: #fff;
+}
+
+button.close-overlay:hover {
+    background: rgba(255, 252, 252, 0.20);
 }
 
 .close-overlay:focus {

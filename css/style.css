@@ -1342,5 +1342,8 @@ button.close-overlay:hover {
     cursor: pointer;
 }
 
-
-/* Updated Instagram CSS */
+@media (max-width:676px) {
+    #instaGallery {
+        display: none;
+    }
+}

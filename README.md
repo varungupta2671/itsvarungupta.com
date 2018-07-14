@@ -8,5 +8,4 @@
 > <b>LinkedIn :</b> [https://www.linkedin.com/in/varun-gupta-66799281/](https://www.linkedin.com/in/varun-gupta-66799281/)
 
 
-
-[![itsvarungupta.com](https://github.com/varungupta2671/itsvarungupta.com/blob/develop/images/signature.png)](http://itsvarungupta.com)
+<a href="http://itsvarungupta.com"><img style="max-width:200px !important;" alt="itsvarungupta.com" src="https://github.com/varungupta2671/itsvarungupta.com/blob/develop/images/signature.png"></a>

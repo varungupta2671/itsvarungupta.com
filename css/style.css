@@ -11,7 +11,7 @@ body {
 }
 
 section {
-    padding: 95px 0;
+    padding: 50px 0;
     background: #27292e
 }
 
@@ -1266,7 +1266,7 @@ footer .icon-style {
     height: 82px;
     font-size: 20px;
     position: absolute;
-    background: #ffffff9e;
+    background: #ffffff7a;
     padding: 10px;
     text-align: center;
     top: 40%;
@@ -1307,6 +1307,7 @@ button.close-overlay:hover {
 .noscroll .web-body {
     height: 100%;
     overflow: hidden;
+    filter: blur(5px);
 }
 
 [aria-hidden="true"] {

@@ -18,6 +18,19 @@ $(document).ready(function() {
         fixedBackground: true
     });
 
+    // Instagram Plugin Script
+    /*
+     * User ID -490998030
+     * Client ID - 994a215d331a4f7284df02755ef158b0
+     * Client Secret - bf48f5ca867d4c20950f5459b2de7bf9 
+     */
+    var userFeed = new Instafeed({
+        get: 'user',
+        userId: 490998030,
+        accessToken: '490998030.994a215.aa755af22f52455a8420a2c72c7acaaf'
+    });
+    userFeed.run();
+
     // Scroll Navbar
     $(window).on('scroll', function() {
         if ($(document).scrollTop() > 10) {
@@ -145,4 +158,18 @@ $(window).on('load', function() {
                 });
 
         });
+});
+
+$('#instaGallery').click(function(e) {
+    e.preventDefault();
+
+    $('body').addClass('noscroll');
+    $('.insta-overlay').show("slow");
+})
+
+$('.close-overlay').click(function(e) {
+    e.preventDefault();
+
+    $('body').removeClass('noscroll');
+    $('.insta-overlay').hide("slow");
 });

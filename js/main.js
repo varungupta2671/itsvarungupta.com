@@ -156,7 +156,7 @@ $('#instaGallery').click(function(e) {
      * Access Token: '490998030.994a215.aa755af22f52455a8420a2c72c7acaaf
      */
     $("#instafeed").instastream({
-        instaToken: '490998030.994a215.aa755af22f52455a8420a2c72c7acaaf',
+        instaToken: '490998030.994a215.2c08255965ae4b659f68846891225dd9',
         instaUser: '490998030', //
         instaResults: 100,
         instaMenu: 'no'

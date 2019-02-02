@@ -24,7 +24,7 @@ $(document).ready(function() {
             $('.navbar').addClass('nav-scroll');
         } else {
             $('.navbar').removeClass('nav-scroll');
-        };
+        }
     });
 
     //smoothly Scroll To Element
@@ -40,10 +40,10 @@ $(document).ready(function() {
         $('section').each(function() {
             if ($(window).scrollTop() > $(this).offset().top) {
                 var secID = $(this).attr('id');
-                $('.navbar-nav li a').removeClass('active-li')
+                $('.navbar-nav li a').removeClass('active-li');
                 $('.navbar-nav li a[data-scroll="' + secID + '"]').addClass('active-li');
             }
-        })
+        });
     });
 
     // Scroll Too Top
@@ -59,7 +59,7 @@ $(document).ready(function() {
 
     //Shwo Color Option Div When Click On The Gear
     $('.gear-check').on('click', function() {
-        $(".color-option").fadeToggle()
+        $(".color-option").fadeToggle();
     });
 
     //Chage Theme Color On Click
@@ -74,11 +74,11 @@ $(document).ready(function() {
         .eq(5).css("backgroundColor", "#404040");
 
     colorLi.on('click', function() {
-        $("link[href*='color']").attr("href", $(this).attr("data-value"))
+        $("link[href*='color']").attr("href", $(this).attr("data-value"));
     });
 
     colorLi.on('click', function() {
-        $("link[href*='background']").attr("href", $(this).attr("data-animal-type"))
+        $("link[href*='background']").attr("href", $(this).attr("data-animal-type"));
     });
 
     // Gallery works Section
@@ -87,7 +87,7 @@ $(document).ready(function() {
 
     // Adjust Selected Shuffle Links
     $('.shuffle li').on('click', function() {
-        $(this).addClass('selected').siblings().removeClass('selected')
+        $(this).addClass('selected').siblings().removeClass('selected');
     });
 
     // Owl Carousel Section App Screenshots

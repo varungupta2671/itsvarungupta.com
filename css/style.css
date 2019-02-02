@@ -1280,6 +1280,11 @@ footer .icon-style {
     padding: 4px;
 }
 
+.overlay-title span a {
+    text-decoration: none;
+    color: #fff;
+}
+
 button.close-overlay {
     position: fixed;
     background: rgba(0, 0, 0, 0.2);

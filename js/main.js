@@ -153,10 +153,11 @@ $('#instaGallery').click(function(e) {
     // Instagram Plugin Script
     /*
      * User ID -490998030
+     * Client ID - 994a215d331a4f7284df02755ef158b0
      * Access Token: '490998030.994a215.aa755af22f52455a8420a2c72c7acaaf
      */
     $("#instafeed").instastream({
-        instaToken: '490998030.994a215.2c08255965ae4b659f68846891225dd9',
+        instaToken: '490998030.994a215.457ae9ef66134df2b4eaaeddcf7e8744',
         instaUser: '490998030', //
         instaResults: 100,
         instaMenu: 'no'
@@ -172,3 +173,6 @@ $('.close-overlay').click(function(e) {
     $('body').removeClass('noscroll');
     $('.insta-overlay').hide("slow");
 });
+
+// var elem = document.querySelector('a[href="https://elfsight.com/instagram-feed-instashow/?utm_source=websites&utm_medium=clients&utm_content=instagram-feed&utm_term=127.0.0.1:3000&utm_campaign=free-widget"]');
+// elem.style.display = 'none';

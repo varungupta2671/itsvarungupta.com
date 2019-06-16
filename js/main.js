@@ -145,6 +145,7 @@ $(window).on('load', function() {
                 });
 
         });
+        // widgetFn();  
 });
 
 $('#instaGallery').click(function(e) {
@@ -174,5 +175,7 @@ $('.close-overlay').click(function(e) {
     $('.insta-overlay').hide("slow");
 });
 
-// var elem = document.querySelector('a[href="https://elfsight.com/instagram-feed-instashow/?utm_source=websites&utm_medium=clients&utm_content=instagram-feed&utm_term=127.0.0.1:3000&utm_campaign=free-widget"]');
-// elem.style.display = 'none';
+function widgetFn() {
+    document.querySelector('.eapps-remove-link').remove();
+    document.querySelector('a[href="https://elfsight.com/instagram-feed-instashow/?utm_source=websites&utm_medium=clients&utm_content=instagram-feed&utm_term=127.0.0.1:3000&utm_campaign=free-widget"]').remove();
+};

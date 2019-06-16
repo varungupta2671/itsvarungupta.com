@@ -258,11 +258,13 @@ header .priev-bottom i {
 }
 
 header .image-header {
-    margin: 108px auto 37px
+    /* margin: 108px auto 37px; */
+    margin: 62px auto 37px;
 }
 
 header .text-header {
-    margin: 188px auto 0
+    /* margin: 188px auto 0; */
+    margin: 142px auto 0;
 }
 
 header .image-header img {

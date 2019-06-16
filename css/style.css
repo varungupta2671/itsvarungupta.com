@@ -438,7 +438,7 @@ header .signature img {
 /*========== Start About ===========*/
 
 .about {
-    padding-bottom: 111px
+    padding-bottom: 20px;
 }
 
 .about ul>li>p {
@@ -447,7 +447,7 @@ header .signature img {
     font-weight: 700;
     min-width: 99px;
     display: inline-block;
-    margin: 0
+    margin: 0;
 }
 
 .about p>span {
@@ -763,7 +763,8 @@ header .signature img {
     margin: 50px auto;
     position: relative;
     overflow: hidden;
-    width: 83%
+    width: 83%;
+    margin-top: 0;
 }
 
 .resume .ex-container:before {

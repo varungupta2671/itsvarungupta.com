@@ -1322,34 +1322,3 @@ button.close-overlay:hover {
 [aria-hidden="false"] {
     display: block;
 }
-
-
-/* Instagram CSS */
-
-#instafeed {
-    position: fixed;
-    right: 5px;
-    width: 555px;
-    overflow-y: scroll;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 0 15px;
-    text-align: center;
-}
-
-#instaGallery {
-    position: absolute;
-    right: 30px;
-    top: 10px;
-}
-
-#instaGallery i {
-    margin-top: 0;
-    cursor: pointer;
-}
-
-@media (max-width:676px) {
-    #instaGallery {
-        display: none;
-    }
-}
